@@ -1,0 +1,766 @@
+[
+  {
+    "model": "core.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Action",
+      "slug": "action"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Drama",
+      "slug": "drama"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Comedy",
+      "slug": "comedy"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Sci-Fi",
+      "slug": "sci-fi"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Thriller",
+      "slug": "thriller"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Romance",
+      "slug": "romance"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Animation",
+      "slug": "animation"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Adventure",
+      "slug": "adventure"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Fantasy",
+      "slug": "fantasy"
+    }
+  },
+  {
+    "model": "core.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Mystery",
+      "slug": "mystery"
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Neon Horizon",
+      "slug": "neon-horizon",
+      "year": 2026,
+      "runtime_minutes": 128,
+      "synopsis": "A courier crosses a rain-soaked megacity to deliver a memory that powerful people want erased.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-09-01T00:00:00Z",
+      "genres": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Letters in June",
+      "slug": "letters-in-june",
+      "year": 2025,
+      "runtime_minutes": 112,
+      "synopsis": "Two old friends return to their hometown and discover a box of letters that changes what they remember about summer.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-08-01T00:00:00Z",
+      "genres": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 3,
+    "fields": {
+      "title": "The Last Detour",
+      "slug": "the-last-detour",
+      "year": 2024,
+      "runtime_minutes": 104,
+      "synopsis": "A mismatched road-trip crew takes one wrong exit and finds an adventure none of them planned.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-01T00:00:00Z",
+      "genres": [
+        3,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Ash & Atlas",
+      "slug": "ash-atlas",
+      "year": 2023,
+      "runtime_minutes": 136,
+      "synopsis": "A reluctant cartographer follows a vanished explorer into a dangerous frontier.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-01T00:00:00Z",
+      "genres": [
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Static Hearts",
+      "slug": "static-hearts",
+      "year": 2022,
+      "runtime_minutes": 98,
+      "synopsis": "A late-night radio host begins receiving calls from someone who seems to know the future.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-01T00:00:00Z",
+      "genres": [
+        10,
+        6
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 6,
+    "fields": {
+      "title": "Paper Moon Club",
+      "slug": "paper-moon-club",
+      "year": 2021,
+      "runtime_minutes": 101,
+      "synopsis": "Young artists build a secret midnight cinema and learn that making a film can change a neighborhood.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-04-01T00:00:00Z",
+      "genres": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 7,
+    "fields": {
+      "title": "The Shawshank Redemption",
+      "slug": "the-shawshank-redemption",
+      "year": 1994,
+      "runtime_minutes": 142,
+      "synopsis": "A banker sentenced to life in prison forms an enduring friendship and quietly holds on to hope while navigating a harsh institution.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-08-11T00:00:00Z",
+      "genres": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 8,
+    "fields": {
+      "title": "The Godfather",
+      "slug": "the-godfather",
+      "year": 1972,
+      "runtime_minutes": 175,
+      "synopsis": "The aging head of a powerful crime family transfers control of his empire while his reluctant son is drawn deeper into the family business.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-08-08T00:00:00Z",
+      "genres": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Pulp Fiction",
+      "slug": "pulp-fiction",
+      "year": 1994,
+      "runtime_minutes": 154,
+      "synopsis": "Interwoven stories of criminals, a boxer, and a mysterious briefcase unfold across Los Angeles with dark humor and sudden turns.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-08-05T00:00:00Z",
+      "genres": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 10,
+    "fields": {
+      "title": "The Dark Knight",
+      "slug": "the-dark-knight",
+      "year": 2008,
+      "runtime_minutes": 152,
+      "synopsis": "A masked vigilante faces a criminal mastermind whose escalating schemes push Gotham and its heroes toward difficult choices.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-08-02T00:00:00Z",
+      "genres": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 11,
+    "fields": {
+      "title": "Inception",
+      "slug": "inception",
+      "year": 2010,
+      "runtime_minutes": 148,
+      "synopsis": "A skilled extractor who enters dreams is offered a chance to erase his past if he can plant an idea deep inside another person's mind.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-30T00:00:00Z",
+      "genres": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Interstellar",
+      "slug": "interstellar",
+      "year": 2014,
+      "runtime_minutes": 169,
+      "synopsis": "A former pilot joins a mission beyond the solar system to search for a future home for humanity.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-27T00:00:00Z",
+      "genres": [
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 13,
+    "fields": {
+      "title": "The Matrix",
+      "slug": "the-matrix",
+      "year": 1999,
+      "runtime_minutes": 136,
+      "synopsis": "A computer programmer discovers that the world he knows is a simulated reality and joins a rebellion against its creators.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-24T00:00:00Z",
+      "genres": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Parasite",
+      "slug": "parasite",
+      "year": 2019,
+      "runtime_minutes": 132,
+      "synopsis": "A struggling family gradually enters the household of a wealthy family, setting off a chain of consequences.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-21T00:00:00Z",
+      "genres": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 15,
+    "fields": {
+      "title": "Spirited Away",
+      "slug": "spirited-away",
+      "year": 2001,
+      "runtime_minutes": 125,
+      "synopsis": "A young girl trapped in a mysterious spirit world works to free her parents and find her way home.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-18T00:00:00Z",
+      "genres": [
+        7,
+        9
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 16,
+    "fields": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "slug": "the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "year": 2001,
+      "runtime_minutes": 178,
+      "synopsis": "A young hobbit begins a dangerous journey to destroy a powerful ring before its maker can reclaim it.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-15T00:00:00Z",
+      "genres": [
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Gladiator",
+      "slug": "gladiator",
+      "year": 2000,
+      "runtime_minutes": 155,
+      "synopsis": "A Roman general is betrayed and forced into slavery before fighting his way toward justice in the arena.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-12T00:00:00Z",
+      "genres": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Whiplash",
+      "slug": "whiplash",
+      "year": 2014,
+      "runtime_minutes": 106,
+      "synopsis": "An ambitious jazz drummer enters an intense relationship with a demanding instructor who pushes him beyond his limits.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-09T00:00:00Z",
+      "genres": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 19,
+    "fields": {
+      "title": "Get Out",
+      "slug": "get-out",
+      "year": 2017,
+      "runtime_minutes": 104,
+      "synopsis": "A young man visits his girlfriend's family estate and becomes increasingly uneasy about the behavior of its residents.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-06T00:00:00Z",
+      "genres": [
+        5,
+        10
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Mad Max: Fury Road",
+      "slug": "mad-max-fury-road",
+      "year": 2015,
+      "runtime_minutes": 120,
+      "synopsis": "A hardened survivor and a group of fugitives race across a desert wasteland while pursued by a ruthless warlord.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-07-03T00:00:00Z",
+      "genres": [
+        1,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 21,
+    "fields": {
+      "title": "La La Land",
+      "slug": "la-la-land",
+      "year": 2016,
+      "runtime_minutes": 128,
+      "synopsis": "An aspiring actress and a jazz musician fall in love while pursuing their creative dreams in Los Angeles.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-30T00:00:00Z",
+      "genres": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 22,
+    "fields": {
+      "title": "The Grand Budapest Hotel",
+      "slug": "the-grand-budapest-hotel",
+      "year": 2014,
+      "runtime_minutes": 100,
+      "synopsis": "A legendary concierge and his young protégé become caught up in a stolen painting, an inheritance dispute, and a changing Europe.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-27T00:00:00Z",
+      "genres": [
+        3,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 23,
+    "fields": {
+      "title": "Arrival",
+      "slug": "arrival",
+      "year": 2016,
+      "runtime_minutes": 116,
+      "synopsis": "A linguist is recruited to communicate with mysterious visitors whose arrival challenges humanity's understanding of time and language.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-24T00:00:00Z",
+      "genres": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 24,
+    "fields": {
+      "title": "The Prestige",
+      "slug": "the-prestige",
+      "year": 2006,
+      "runtime_minutes": 130,
+      "synopsis": "Two rival stage magicians become consumed by their competition, trading secrets and sacrifices in pursuit of the perfect illusion.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-21T00:00:00Z",
+      "genres": [
+        2,
+        10
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 25,
+    "fields": {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "slug": "spider-man-into-the-spider-verse",
+      "year": 2018,
+      "runtime_minutes": 117,
+      "synopsis": "A teenager discovers a multiverse of Spider-heroes and learns what it means to take responsibility for his own powers.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-18T00:00:00Z",
+      "genres": [
+        1,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 26,
+    "fields": {
+      "title": "Coco",
+      "slug": "coco",
+      "year": 2017,
+      "runtime_minutes": 105,
+      "synopsis": "A music-loving boy enters the Land of the Dead and uncovers a surprising family history while trying to return home.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-15T00:00:00Z",
+      "genres": [
+        7,
+        9
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 27,
+    "fields": {
+      "title": "Knives Out",
+      "slug": "knives-out",
+      "year": 2019,
+      "runtime_minutes": 130,
+      "synopsis": "A detective investigates the death of a wealthy novelist as the entire family becomes a suspect.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-12T00:00:00Z",
+      "genres": [
+        3,
+        10
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 28,
+    "fields": {
+      "title": "Everything Everywhere All at Once",
+      "slug": "everything-everywhere-all-at-once",
+      "year": 2022,
+      "runtime_minutes": 139,
+      "synopsis": "A laundromat owner is pulled across parallel universes and discovers unexpected versions of herself.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-09T00:00:00Z",
+      "genres": [
+        3,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 29,
+    "fields": {
+      "title": "Oppenheimer",
+      "slug": "oppenheimer",
+      "year": 2023,
+      "runtime_minutes": 180,
+      "synopsis": "A physicist leads a secret wartime project that changes the course of history while confronting its consequences.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-06T00:00:00Z",
+      "genres": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Dune",
+      "slug": "dune",
+      "year": 2021,
+      "runtime_minutes": 155,
+      "synopsis": "A young heir travels to a desert world and becomes caught in a struggle over power, resources, and destiny.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-06-03T00:00:00Z",
+      "genres": [
+        4,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 31,
+    "fields": {
+      "title": "The Social Network",
+      "slug": "the-social-network",
+      "year": 2010,
+      "runtime_minutes": 120,
+      "synopsis": "A group of students build a groundbreaking social network, while friendships and legal disputes reshape their relationships.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-31T00:00:00Z",
+      "genres": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 32,
+    "fields": {
+      "title": "The Truman Show",
+      "slug": "the-truman-show",
+      "year": 1998,
+      "runtime_minutes": 103,
+      "synopsis": "A man gradually realizes that his ordinary life is being broadcast to the world without his knowledge.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-28T00:00:00Z",
+      "genres": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 33,
+    "fields": {
+      "title": "Jurassic Park",
+      "slug": "jurassic-park",
+      "year": 1993,
+      "runtime_minutes": 127,
+      "synopsis": "A theme park filled with cloned dinosaurs loses control of its attractions when a security failure turns a preview visit into a fight for survival.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-25T00:00:00Z",
+      "genres": [
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 34,
+    "fields": {
+      "title": "Back to the Future",
+      "slug": "back-to-the-future",
+      "year": 1985,
+      "runtime_minutes": 116,
+      "synopsis": "A teenager accidentally travels into the past and must repair the timeline before he can return home.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-22T00:00:00Z",
+      "genres": [
+        3,
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 35,
+    "fields": {
+      "title": "The Silence of the Lambs",
+      "slug": "the-silence-of-the-lambs",
+      "year": 1991,
+      "runtime_minutes": 118,
+      "synopsis": "A young FBI trainee seeks the insight of an imprisoned killer while tracking another murderer.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-19T00:00:00Z",
+      "genres": [
+        5,
+        10
+      ]
+    }
+  },
+  {
+    "model": "core.movie",
+    "pk": 36,
+    "fields": {
+      "title": "The Green Mile",
+      "slug": "the-green-mile",
+      "year": 1999,
+      "runtime_minutes": 189,
+      "synopsis": "A prison guard forms an extraordinary bond with a death-row inmate whose mysterious abilities change everyone around him.",
+      "poster": "",
+      "trailer_url": "",
+      "is_published": true,
+      "date_created": "2026-05-16T00:00:00Z",
+      "genres": [
+        2,
+        9
+      ]
+    }
+  }
+]
